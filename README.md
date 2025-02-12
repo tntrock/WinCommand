@@ -25,6 +25,11 @@
 >> w32tm /query /peers
 >> ```
 
+> **顯示NetBIOS狀態**
+>> ```cmd
+>> nbtstat -n
+>> ```
+
 > **產生GPO清單(html及xml格式)**
 >> ```cmd
 >> gpresult /f /h ".\%COMPUTERNAME%\GPO_report.html"
